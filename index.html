@@ -1,0 +1,32 @@
+<!-- Tail wind grid fundamental responsive concepts -->
+
+2 Equal portion on big screen and one on mobile
+
+<!-- <div class="m-4 grid grid-cols-2 gap-4 sm:grid-cols-2">
+  <div class="min-h-[100px] border-2 bg-orange-400"></div>
+  <div class="min-h-[100px] border-2 bg-orange-400"></div>
+</div> -->
+
+4 equal portion on big screen only one on mobile
+
+<!-- <div class="m-4 grid gap-4 sm:grid-cols-4">
+  <div class="min-h-[100px] rounded-lg border-2 bg-orange-400"></div>
+  <div class="min-h-[100px] rounded-lg border-2 bg-teal-400"></div>
+  <div class="min-h-[100px] rounded-lg border-2 bg-blue-400"></div>
+  <div class="min-h-[100px] rounded-lg border-2 bg-red-400"></div>
+</div> -->
+
+2 unequal portion on big screen only one on mobile
+
+<!-- <div class="m-4 grid gap-4 sm:grid-cols-12">
+  <div class="min-h-[100px] rounded-lg border-2 bg-orange-400 sm:col-span-2"></div>
+  <div class="min-h-[100px] rounded-lg border-2 bg-teal-400 sm:col-span-10"></div>
+</div> -->
+
+3 unequal portion on big screen display only center one hide other two on mobile screen(smaller screen)
+
+<div class="m-4 grid gap-4 sm:grid-cols-12">
+  <div class="hidden min-h-[100px] rounded-lg border-2 bg-orange-400 sm:col-span-2 sm:block"></div>
+  <div class="hidden min-h-[100px] rounded-lg border-2 bg-teal-400 sm:col-span-8 sm:block"></div>
+  <div class="min-h-[100px] rounded-lg border-2 bg-blue-400 sm:col-span-2"></div>
+</div>
